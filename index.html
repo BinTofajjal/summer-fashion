@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/eea0c81560.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              c_herobg: "#FFFBF0",
+              c_title: "#FABE4C",
+              c_green: "#a4bc47",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Summer Fahison</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="bg-herobg pb-32 pt-32">
+      <div class="container sm:flex mx-auto items-center justify-around">
+        <div class="info space-y-4 w-full sm:w-2/6">
+          <h1 class="text-2xl sm:text-5xl uppercase text-lime-600 font-bold">
+            <span class="text-black text-sm">Trending Products</span>
+
+            <br />
+            Flex Hooded Tee
+          </h1>
+
+          <p class="text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+            praesentium pariatur explicabo aperiam dolor at, earum cupiditates
+            odio possimus error assumenda aliquam exercitationem voluptatem,
+            optio perferendis.
+          </p>
+
+          <button class="uppercase rounded-lg bg-lime-600 text-white px-5 py-2">
+            <i class="fa-solid fa-cart-shopping"></i> Buy Now
+          </button>
+        </div>
+        <div class="pt-6 sm:pt-0">
+          <img class="w-1/2 sm:w-full" src="/images/model.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
